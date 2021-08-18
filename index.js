@@ -7,7 +7,8 @@ program
 .option('--save', 'save to passwords.txt file')
 .option('-nn, --no-numbers', 'no numbers in password')
 .option('-ns, --no-symbols', 'no symbols in password')
-
 .parse();
 
-console.log(program.opts());
+const { length, save, numbers, symbols } = program.opts();
+
+console.log(symbols, numbers, length);
