@@ -10,3 +10,5 @@ const createPassword = (length = 8, hasCapitals = true, hasNumbers = true, hasSy
     hasCapitals ? (chars + capitals) : ''
     return chars
 }
+
+module.exports = createPassword;
