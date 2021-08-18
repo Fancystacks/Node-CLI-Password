@@ -6,6 +6,7 @@ program
 .option('--length <number of characters>', 'desired password length', '8')
 .option('--save', 'save to passwords.txt file')
 .option('-nn, --no-numbers', 'no numbers in password')
+.option('-nc, --no-capitals', 'no capital letters')
 .option('-ns, --no-symbols', 'no symbols in password')
 .parse();
 
