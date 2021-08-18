@@ -10,8 +10,8 @@ program
 .option('-ns, --no-symbols', 'no symbols in password')
 .parse();
 
-const { length, save, numbers, symbols } = program.opts();
+const { length, save, numbers, symbols, capitals } = program.opts();
 
-const generatedPassword = createPassword(length, numbers, symbols) 
+const generatedPassword = createPassword(length, numbers, symbols); 
 
 console.log(generatedPassword);
