@@ -16,4 +16,4 @@ const { length, save, numbers, symbols, capitals } = program.opts();
 
 const generatedPassword = createPassword(length, numbers, symbols, capitals); 
 
-console.log(generatedPassword);
+console.log(chalk.cyanBright('New Password: ') + chalk.magenta(generatedPassword));
