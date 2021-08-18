@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Fancystacks/Node-CLI-Password#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "commander": "^8.1.0"
   }
 }
