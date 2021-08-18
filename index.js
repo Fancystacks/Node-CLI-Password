@@ -1,3 +1,5 @@
 const program = require('commander');
 
-program.version('1.0.0').description('Simple Password Generator').parse();
+program.version('1.0.0').description('Simple Password Generator');
+
+program.option('--length', 'desired password length').parse();
