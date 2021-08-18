@@ -8,7 +8,14 @@ const createPassword = (length = 8, hasCapitals = true, hasNumbers = true, hasSy
     hasNumbers ? (chars + numbers) : ''
     hasSymbols ? (chars + symbols) : ''
     hasCapitals ? (chars + capitals) : ''
-    return chars
+    return generatePassword(chars, length)
+}
+
+const generatedPassword = (chars, length) => {
+    let password = ''
+    for(let i = 0; i < length, i++) {
+        password += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
 }
 
 module.exports = createPassword;
