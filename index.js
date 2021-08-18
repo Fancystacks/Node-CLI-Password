@@ -17,4 +17,8 @@ const { length, save, numbers, symbols, capitals } = program.opts();
 
 const generatedPassword = createPassword(length, numbers, symbols, capitals); 
 
+// copy to clipboard
+clipboardy.writeSync(generatedPassword);
+
 console.log(chalk.cyanBright('New Password: ') + chalk.magenta(generatedPassword));
+console.log(chalk.green('Copied to clipboard!'));
