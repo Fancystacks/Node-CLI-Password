@@ -1,5 +1,6 @@
 const { program } = require('commander');
 const chalk = require('chalk');
+const clipboardy = require('clipboardy');
 const createPassword = require('./utils/createPassword');
 
 program.version('1.0.0').description('Simple Password Generator');
