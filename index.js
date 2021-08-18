@@ -20,7 +20,7 @@ const generatedPassword = createPassword(length, numbers, symbols, capitals);
 
 // save password.txt to file
 if(save) {
-
+    savePassword(generatedPassword);
 }
 
 // copy to clipboard
