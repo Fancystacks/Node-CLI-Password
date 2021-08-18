@@ -1,0 +1,23 @@
+{
+  "name": "Node-CLI-Password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fancystacks/Node-CLI-Password.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fancystacks/Node-CLI-Password/issues"
+  },
+  "homepage": "https://github.com/Fancystacks/Node-CLI-Password#readme",
+  "dependencies": {
+    "commander": "^8.1.0"
+  }
+}
