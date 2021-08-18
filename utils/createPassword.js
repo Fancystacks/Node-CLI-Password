@@ -11,7 +11,7 @@ const createPassword = (length = 8, hasCapitals = true, hasNumbers = true, hasSy
     return generatePassword(chars, length)
 }
 
-const generatedPassword = (chars, length) => {
+const generatePassword = (chars, length) => {
     let password = ''
     for(let i = 0; i < length; i++) {
         password += chars.charAt(Math.floor(Math.random() * chars.length));
