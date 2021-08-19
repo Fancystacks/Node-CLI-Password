@@ -3,7 +3,7 @@ const path = require('path');
 const chalk = require('chalk');
 
 const deleteFile = () => {
-    fs.writeFile('./passwords.txt', '', function(){console.log('deleted')})
+    fs.writeFile('./passwords.txt', '', function(){console.log(chalk.red('Cleared from passwords.txt'))})
 }
 
 module.exports = deleteFile;
