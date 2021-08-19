@@ -12,7 +12,7 @@ program.version('1.0.0').description('Simple Password Generator');
 program
 .option('--length <number of characters>', 'desired password length', '8')
 .option('--save', 'save to passwords.txt file')
-.option('--clear', 'clear passwords.txt file')
+.option('--clear', 'clear passwords.txt history')
 .option('-nn, --no-numbers', 'no numbers in password')
 .option('-nc, --no-capitals', 'no capital letters')
 .option('-ns, --no-symbols', 'no symbols in password')
